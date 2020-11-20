@@ -124,10 +124,10 @@ Items:
         Id: d73a976d-b2ab-4572-9ec9-351ded5f6fd3
         IsEnabled: true
         LocalOrientation:
-          W: 0.923913836
-          X: -0.081650503
-          Y: 0.373673528
-          Z: 0.00918699615
+          W: 0.927476883
+          X: -0.0244090445
+          Y: 0.372823238
+          Z: -0.0139183328
         LocalPosition:
           X: 0.0
           Y: 0.0
@@ -140,18 +140,18 @@ Items:
         Id: 5f6768ca-a7e6-4ab7-82b2-d9b3c42d111f
         Color:
           A: 0
-          B: 166
-          G: 203
-          R: 231
+          B: 51
+          G: 114
+          R: 180
         ColorByTemperature: true
         Illuminance: 3.0
         Intensity: 3.0
         IsEnabled: true
         LinearColor:
           A: 0.0
-          B: 0.387530744
-          G: 0.604946494
-          R: 0.808381259
+          B: 0.028802909
+          G: 0.170589507
+          R: 0.462635815
         Temperature: 6500.0
       - !WaveEngine.Framework.Graphics.SunComponent,WaveEngine.Framework
         Id: 6f2b70f3-a505-49a6-9454-130b04d48cd3
@@ -184,7 +184,7 @@ Items:
         Id: bb44cd62-4d92-418a-8a42-bbc2ed2b6f07
         AsignedTo: Default
         IsEnabled: true
-        Material: 0425b79a-5d12-4d65-84f6-90fbc863e5db
+        Material: b7d14979-cf22-4dda-a41f-8291bf98b250
       - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
         Id: 3ef37285-f016-4173-bbf0-278ec1624224
         Diameter: 1.0
