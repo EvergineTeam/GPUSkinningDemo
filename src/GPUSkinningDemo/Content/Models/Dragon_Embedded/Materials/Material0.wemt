@@ -6,7 +6,7 @@ DefaultProfile:
   Platform: Undefined
 ExportAsRaw: false
 MaterialInfo:
-  Id: 6cc7d7ce-3bdb-487b-93b3-8900e93f1c85
+  Id: 97573c93-8129-4e5e-881f-edda75445954
   ActiveDirectives:
     - AO
     - ATEST
@@ -28,10 +28,10 @@ MaterialInfo:
       ValueByteArray: AwAAAAAAAAA=
     - Name: ViewProj
       Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
-      ValueByteArray: RgAWQE+Rqz7JdD8+4m8/Po89mrLGHPg/lZ4Yv62aGL+9pw8/fSWzv97pR7/A5Ee/20FVNOznDzMe7ItAvBuPQA==
+      ValueByteArray: OjEaQMiZzDvss8s8ta7LPAAAAAAzrhlAUOnTvePj070sw3Y9s7F/vnGSfr/ti36/jwSZsiqFVDUf7ItAvRuPQA==
     - Name: EyePosition
       Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
-      ValueByteArray: fAhWv+CdKkDifF9A
+      ValueByteArray: UbnjvXjm7D6+S45A
     - Name: EyeCount
       Type: System.Int32
       ValueByteArray: AQAAAA==
@@ -49,10 +49,10 @@ MaterialInfo:
       ValueByteArray: AACAPw==
     - Name: MultiviewViewProj
       Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
-      ValueByteArray: RgAWQE+Rqz7JdD8+4m8/Po89mrLGHPg/lZ4Yv62aGL+9pw8/fSWzv97pR7/A5Ee/20FVNOznDzMe7ItAvBuPQA==
+      ValueByteArray: OjEaQMiZzDvss8s8ta7LPAAAAAAzrhlAUOnTvePj070sw3Y9s7F/vnGSfr/ti36/jwSZsiqFVDUf7ItAvRuPQA==
     - Name: MultiviewEyePosition
       Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
-      ValueByteArray: fAhWv+CdKkDifF9AAACAPw==
+      ValueByteArray: UbnjvXjm7D6+S45AAACAPw==
     - Name: BaseColor
       Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
       ValueByteArray: AACAPwAAgD8AAIA/
