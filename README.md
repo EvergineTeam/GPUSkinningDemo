@@ -3,9 +3,15 @@ This demo uses the new Wave Engine 3.1 compute shader capabilities to generate s
 
 ![alt Screenshot](https://github.com/WaveEngine/GPUSkinningDemo/blob/main/Capturas/GPUSkinning1.jpg)
 
+Original model available in [Microsoft 3D Viewer](https://www.microsoft.com/en-us/p/3d-viewer/9nblggh42ths?activetab=pivot:overviewtab)
 ## Build and Test
 
 Required Visual Studio 16.8 with .NET5 support
+
+### Special Keys
+ * **W,S,D,A**: Camera movement.
+ * **Right Click + Mouse**: Camera look.
+ * **Space**: Cycle model animations.
 
 ----
 Powered by **[WaveEngine 3.1](http://www.waveengine.net)**
