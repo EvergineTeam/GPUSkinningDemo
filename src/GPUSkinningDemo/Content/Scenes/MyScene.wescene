@@ -63,7 +63,7 @@ Items:
       - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
         Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
         Aperture: 1.0
-        AspectRatio: 1.93288589
+        AspectRatio: 2.39004159
         AutoExposureEnabled: false
         CameraOrder: 0.0
         ClearDepth: 1.0
@@ -94,7 +94,7 @@ Items:
         MinLogLuminance: -10.0
         NearPlane: 0.100000001
         ScreenViewport:
-          Height: 298.0
+          Height: 241.0
           MaxDepth: 1.0
           MinDepth: 0.0
           Width: 576.0
@@ -184,7 +184,7 @@ Items:
         Id: bb44cd62-4d92-418a-8a42-bbc2ed2b6f07
         AsignedTo: Default
         IsEnabled: true
-        Material: 0ecc29b2-18d2-45d2-a932-83b582f4c8ba
+        Material: 0081ab8d-a8e1-457c-a16b-9083ffdb1258
       - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
         Id: 3ef37285-f016-4173-bbf0-278ec1624224
         Diameter: 1.0
@@ -256,6 +256,14 @@ Items:
       - !GPUSkinningDemo.DragonController,GPUSkinningDemo
         Id: 14161331-b06b-4bca-a4b4-03ef1c50712b
         IsEnabled: true
+      - !GPUSkinningDemo.HierarchyLineDrawable,GPUSkinningDemo
+        Id: 6ca7d8e7-6bfb-4408-bd72-1acb5afd25d7
+        AxisSize: 0.0399999879
+        DebugBoundingbox: true
+        IsCullingEnabled: false
+        IsEnabled: false
+        OrderBias: 9
+        RenderLayerDescription: e0af90ab-4784-417f-93e9-0617574a5cf8
     Children:
       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
         Name: geo_1

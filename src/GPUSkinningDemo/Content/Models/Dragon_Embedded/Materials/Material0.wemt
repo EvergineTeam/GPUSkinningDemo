@@ -6,7 +6,7 @@ DefaultProfile:
   Platform: Undefined
 ExportAsRaw: false
 MaterialInfo:
-  Id: 97573c93-8129-4e5e-881f-edda75445954
+  Id: 48d7091d-a43b-4a25-aac9-c57d70f43eb5
   ActiveDirectives:
     - AO
     - ATEST
@@ -17,7 +17,7 @@ MaterialInfo:
     - NORMAL
   AllowInstancing: false
   EffectID: daa1f60a-82ad-40fc-8fbb-7b85caa6de0a
-  Layer: 17e5e006-3c7a-47b5-b050-cdb0b8cb4e6e
+  Layer: 0db59561-b3f5-444f-b5de-e62e3a5b42bf
   OrderBias: 0
   Parameters:
     - Name: World
@@ -28,10 +28,10 @@ MaterialInfo:
       ValueByteArray: AwAAAAAAAAA=
     - Name: ViewProj
       Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
-      ValueByteArray: OjEaQMiZzDvss8s8ta7LPAAAAAAzrhlAUOnTvePj070sw3Y9s7F/vnGSfr/ti36/jwSZsiqFVDUf7ItAvRuPQA==
+      ValueByteArray: SpIEQAAAAAAAAAAAAAAAAAAAAACYMgpADf/kvjD55L4AAAAAmjKKvwv/ZL8u+WS/AAAAAHmCGjUf7ItAvRuPQA==
     - Name: EyePosition
       Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
-      ValueByteArray: UbnjvXjm7D6+S45A
+      ValueByteArray: AAAAAAAAAEAAAIBA
     - Name: EyeCount
       Type: System.Int32
       ValueByteArray: AQAAAA==
@@ -49,10 +49,10 @@ MaterialInfo:
       ValueByteArray: AACAPw==
     - Name: MultiviewViewProj
       Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
-      ValueByteArray: OjEaQMiZzDvss8s8ta7LPAAAAAAzrhlAUOnTvePj070sw3Y9s7F/vnGSfr/ti36/jwSZsiqFVDUf7ItAvRuPQA==
+      ValueByteArray: SpIEQAAAAAAAAAAAAAAAAAAAAACYMgpADf/kvjD55L4AAAAAmjKKvwv/ZL8u+WS/AAAAAHmCGjUf7ItAvRuPQA==
     - Name: MultiviewEyePosition
       Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
-      ValueByteArray: UbnjvXjm7D6+S45AAACAPw==
+      ValueByteArray: AAAAAAAAAEAAAIBAAACAPw==
     - Name: BaseColor
       Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
       ValueByteArray: AACAPwAAgD8AAIA/
@@ -82,7 +82,7 @@ MaterialInfo:
       ValueByteArray: AAAAAAAAAAA=
     - Name: TextureOffset1
       Type: WaveEngine.Mathematics.Vector2,WaveEngine.Mathematics
-      ValueByteArray: AAAAAAAAAAA=
+      ValueByteArray: CtejuwAAAAA=
     - Name: Emissive
       Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
       ValueByteArray: AACAPwAAgD8AAIA/
@@ -133,8 +133,8 @@ MaterialInfo:
       Name: null
     - ID: d81d459c-c433-4ee3-bfe5-b45fbce12736
       Name: IblDFGTexture
-    - ID: 01cd202e-fdb3-4ef8-827b-55df41788a24
+    - ID: b934d594-cf24-49a8-8257-61120a58149e
       Name: IBLRadianceTexture
-    - ID: 63b12d61-b786-4eec-b502-60970ca38f90
+    - ID: 8319d90c-66f1-4eb7-9cdd-01f80f6057f7
       Name: IBLIrradianceTexture
 Profiles: {}

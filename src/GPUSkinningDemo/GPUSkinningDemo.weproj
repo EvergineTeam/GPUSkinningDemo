@@ -31,4 +31,12 @@ Profiles:
     Name: UWP
     NonAlphaCompressionFormat: BC3_UNorm
     Platform: UWP
+  - AdditionalEffectTechniqueCombinations: LOW_PROFILE
+    AlphaCompressionFormat: R8G8B8A8_UNorm
+    CompileEffects: true
+    GraphicsBackend: WebGL2
+    LauncherType: Default
+    Name: Web
+    NonAlphaCompressionFormat: R8G8B8A8_UNorm
+    Platform: Web
 ResourcesPath: Content

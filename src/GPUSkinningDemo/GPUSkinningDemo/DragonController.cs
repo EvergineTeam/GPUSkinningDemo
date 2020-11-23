@@ -17,6 +17,9 @@ namespace GPUSkinningDemo
         [BindComponent]
         private Transform3D transform;
 
+        [BindComponent]
+        private HierarchyLineDrawable hiearchyLines;
+
         private KeyboardDispatcher keyboardDispacher;
 
         private string[] animations = new string[] { "flying", "running", "idle" };
@@ -63,6 +66,10 @@ namespace GPUSkinningDemo
             if (e.Key == Keys.Space)
             {
                 this.CycleAnimation();
+            }
+            else if (e.Key == Keys.H)
+            {
+                this.hiearchyLines.IsEnabled = !this.hiearchyLines.IsEnabled;
             }
         }
 

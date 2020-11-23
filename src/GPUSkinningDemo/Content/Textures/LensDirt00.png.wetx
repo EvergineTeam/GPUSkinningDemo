@@ -1,7 +1,7 @@
 !WaveEngine.Assets.Exporters.TextureMetaFile,WaveEngine.Assets
 Id: 75a8073c-1878-4160-a92d-da0d7530cbb6
 DefaultProfile:
-  ExcludeAsset: false
+  ExcludeAsset: true
   ExportedItem: null
   Name: default
   PixelFormat: R8G8B8A8_UNorm
