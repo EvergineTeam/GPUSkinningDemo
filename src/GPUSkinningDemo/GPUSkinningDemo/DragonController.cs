@@ -23,8 +23,6 @@ namespace GPUSkinningDemo
 
         private int animIndex = 0;
 
-        private string titleRoot;
-
         protected override bool OnAttached()
         {
             if (!Application.Current.IsEditor)
