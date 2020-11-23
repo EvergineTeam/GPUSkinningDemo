@@ -35,17 +35,16 @@ namespace GPUSkinningDemo
 
         private void ClearResources()
         {
-            this.Managers.RenderManager.RemoveRenderObject(this.lineBatch3D);
-            this.lineBatch3D?.Dispose();
-            this.lineBatch3D = null;
+            if (this.lineBatch3D != null)
+            {
+                this.lineBatch3D.Dispose();
+                this.lineBatch3D = null;
+            }
         }
 
         private void RefreshResources()
         {
-            if (this.lineBatch3D != null)
-            {
-                this.ClearResources();
-            }
+            this.ClearResources();
 
             if (this.renderLayerDescription != null)
             {

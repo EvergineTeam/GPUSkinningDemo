@@ -9,14 +9,19 @@ namespace GPUSkinningDemo
 {
     public class MyScene : Scene
     {
-		public override void RegisterManagers()
-        {
-        	base.RegisterManagers();
-        	////this.Managers.AddManager(new WaveEngine.Bullet.BulletPhysicManager3D());        	
-        }
-
         protected override void CreateScene()
         {
+            var backendType = Application.Current.Container.Resolve<GraphicsContext>().BackendType;
+            var isOpenGL = backendType == GraphicsBackend.OpenGL || backendType == GraphicsBackend.WebGL1 || backendType == GraphicsBackend.WebGL2 || backendType == GraphicsBackend.OpenGLES;
+
+            if (isOpenGL)
+            {
+                var pp = this.Managers.EntityManager.Find("PostProcessingVolume");
+                this.Managers.EntityManager.Remove(pp);
+
+                var camera = this.Managers.EntityManager.FindFirstComponentOfType<Camera3D>();
+                camera.AutoExposureEnabled = false;
+            }
         }
     }
 }

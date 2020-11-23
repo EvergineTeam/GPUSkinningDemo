@@ -39,14 +39,14 @@ Items:
         Id: 809f1d2c-2305-4916-acfe-f81399ffb235
         IsEnabled: true
         LocalOrientation:
-          W: 0.815979481
-          X: -0.00628700014
-          Y: -0.578029573
-          Z: -0.00444807252
+          W: 0.89377749
+          X: -0.00129939197
+          Y: -0.448508263
+          Z: -0.000646298053
         LocalPosition:
-          X: -1.71228766
-          Y: 0.64068985
-          Z: 1.46874011
+          X: -1.01707172
+          Y: 0.614807189
+          Z: 1.8943373
         LocalScale:
           X: 1.0
           Y: 1.0
@@ -63,8 +63,8 @@ Items:
       - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
         Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
         Aperture: 1.0
-        AspectRatio: 2.39004159
-        AutoExposureEnabled: false
+        AspectRatio: 2.37814069
+        AutoExposureEnabled: true
         CameraOrder: 0.0
         ClearDepth: 1.0
         ClearFlags: All
@@ -75,7 +75,7 @@ Items:
           MinDepth: 0.0
         DisplayTag: null
         DisplayTagDirty: true
-        Exposure: 0.616173804
+        Exposure: 1.11502159
         FarPlane: 1000.0
         FieldOfView: 0.785398185
         FieldOfViewAxis: Vertical
@@ -94,10 +94,10 @@ Items:
         MinLogLuminance: -10.0
         NearPlane: 0.100000001
         ScreenViewport:
-          Height: 241.0
+          Height: 796.0
           MaxDepth: 1.0
           MinDepth: 0.0
-          Width: 576.0
+          Width: 1893.0
           X: 0.0
           Y: 0.0
         Sensitivity: 100.0
@@ -124,10 +124,10 @@ Items:
         Id: d73a976d-b2ab-4572-9ec9-351ded5f6fd3
         IsEnabled: true
         LocalOrientation:
-          W: 0.924448133
-          X: -0.0787708461
-          Y: 0.372997731
-          Z: 0.0079746563
+          W: 0.927279949
+          X: -0.0310006216
+          Y: 0.372912765
+          Z: -0.0112680756
         LocalPosition:
           X: 0.0
           Y: 0.0
@@ -140,18 +140,18 @@ Items:
         Id: 5f6768ca-a7e6-4ab7-82b2-d9b3c42d111f
         Color:
           A: 0
-          B: 163
-          G: 201
-          R: 231
+          B: 73
+          G: 135
+          R: 194
         ColorByTemperature: true
         Illuminance: 3.0
         Intensity: 3.0
         IsEnabled: true
         LinearColor:
           A: 0.0
-          B: 0.373261064
-          G: 0.593530715
-          R: 0.801528573
+          B: 0.0639473498
+          G: 0.248413265
+          R: 0.54870075
         Temperature: 6500.0
       - !WaveEngine.Framework.Graphics.SunComponent,WaveEngine.Framework
         Id: 6f2b70f3-a505-49a6-9454-130b04d48cd3
@@ -184,7 +184,7 @@ Items:
         Id: bb44cd62-4d92-418a-8a42-bbc2ed2b6f07
         AsignedTo: Default
         IsEnabled: true
-        Material: 0081ab8d-a8e1-457c-a16b-9083ffdb1258
+        Material: ad251dd5-321f-404a-b776-70cd506e7f3c
       - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
         Id: 3ef37285-f016-4173-bbf0-278ec1624224
         Diameter: 1.0
@@ -9338,4 +9338,37 @@ Items:
             Id: 0af5ad42-e72e-491e-be8d-0680d5095461
         Id: 7dc649bb-eeb5-4469-a52c-ea0e2b2742e2
     Id: d89092f8-b021-4040-8033-4a7dd1684ee4
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: PostProcessingVolume
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: ea788d12-e447-426e-8f34-e9f718575cbb
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 3.20531464
+          Y: 0.683416843
+          Z: -0.250608683
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.PostProcessingGraphRenderer,WaveEngine.Components
+        Id: 97ccef30-5be7-46c6-9649-467d9269dfa4
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        IsGlobal: true
+        LayerOrder: 10
+        OrderBias: 0
+        ppGraph: dd593717-0922-4f58-9c85-c309658eff03
+    Children: []
+    Id: 82017cf2-2d30-4898-8d2d-f7f55b00f719
 Managers: []
