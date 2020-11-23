@@ -12,6 +12,7 @@ Required Visual Studio 16.8 with .NET5 support
  * **W,S,D,A**: Camera movement.
  * **Right Click + Mouse**: Camera look.
  * **Space**: Cycle model animations.
+ * **H**: Show / Hide hierarchy information.
 
 ----
 Powered by **[WaveEngine 3.1](http://www.waveengine.net)**
