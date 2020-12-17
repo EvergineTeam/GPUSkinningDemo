@@ -63,7 +63,7 @@ Items:
       - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
         Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
         Aperture: 1.0
-        AspectRatio: 2.37814069
+        AspectRatio: 1.59821427
         AutoExposureEnabled: true
         CameraOrder: 0.0
         ClearDepth: 1.0
@@ -75,7 +75,7 @@ Items:
           MinDepth: 0.0
         DisplayTag: null
         DisplayTagDirty: true
-        Exposure: 1.11502159
+        Exposure: 1.09971166
         FarPlane: 1000.0
         FieldOfView: 0.785398185
         FieldOfViewAxis: Vertical
@@ -94,10 +94,10 @@ Items:
         MinLogLuminance: -10.0
         NearPlane: 0.100000001
         ScreenViewport:
-          Height: 796.0
+          Height: 784.0
           MaxDepth: 1.0
           MinDepth: 0.0
-          Width: 1893.0
+          Width: 1253.0
           X: 0.0
           Y: 0.0
         Sensitivity: 100.0
@@ -144,14 +144,17 @@ Items:
           G: 135
           R: 194
         ColorByTemperature: true
+        DepthBias: 0.0
         Illuminance: 3.0
         Intensity: 3.0
         IsEnabled: true
+        IsShadowEnabled: false
         LinearColor:
           A: 0.0
           B: 0.0639473498
           G: 0.248413265
           R: 0.54870075
+        ShadowsOpacity: 0.0
         Temperature: 6500.0
       - !WaveEngine.Framework.Graphics.SunComponent,WaveEngine.Framework
         Id: 6f2b70f3-a505-49a6-9454-130b04d48cd3
@@ -184,7 +187,7 @@ Items:
         Id: bb44cd62-4d92-418a-8a42-bbc2ed2b6f07
         AsignedTo: Default
         IsEnabled: true
-        Material: ad251dd5-321f-404a-b776-70cd506e7f3c
+        Material: 91a9f2e8-2ca3-4bb3-93af-2685aa88fea6
       - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
         Id: 3ef37285-f016-4173-bbf0-278ec1624224
         Diameter: 1.0
@@ -197,6 +200,7 @@ Items:
       - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
         Id: 1665742b-454f-4cda-9b9b-df6698342e5d
         DebugBoundingbox: true
+        IsCastShadows: false
         IsCullingEnabled: false
         IsEnabled: true
         OrderBias: 0
@@ -260,6 +264,7 @@ Items:
         Id: 6ca7d8e7-6bfb-4408-bd72-1acb5afd25d7
         AxisSize: 0.0399999879
         DebugBoundingbox: true
+        IsCastShadows: false
         IsCullingEnabled: false
         IsEnabled: false
         OrderBias: 9
@@ -3828,6 +3833,7 @@ Items:
                     M42: -2.09472857E-15
                     M43: 4.59733343
                     M44: 1.0
+                IsCastShadows: false
                 IsCullingEnabled: false
                 IsEnabled: true
                 JointIds:
@@ -9363,6 +9369,7 @@ Items:
       - !WaveEngine.Components.Graphics3D.PostProcessingGraphRenderer,WaveEngine.Components
         Id: 97ccef30-5be7-46c6-9649-467d9269dfa4
         DebugBoundingbox: true
+        IsCastShadows: false
         IsCullingEnabled: true
         IsEnabled: true
         IsGlobal: true
